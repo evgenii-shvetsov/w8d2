@@ -37,3 +37,6 @@ Array.prototype.transpose = function(){
 let newVar = [["a","b","c"],["d","e","f"],["g","h","i"]]
 console.log(newVar.transpose());
 console.log(newVar)
+
+
+
