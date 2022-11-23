@@ -32,16 +32,15 @@ Array.prototype.bubbleSort = function(callback) {
 String.prototype.substring = function(){
     let result = [];
     let letters = this.split('')
-    for(let i = 0; i < letters.length; i++){ //0
-        for(let j = i; j < letters.length; j++){//0
+    for(let i = 0; i < letters.length; i++){
+        for(let j = i; j < letters.length; j++){
             if (j >= i) { //true
                 let temp = letters.slice(i, j+1)
                 result.push([temp.join("")])
-
             }
         }
     }
-    return result
+    return result;
 }
 
 console.log("Andrea".substring())
