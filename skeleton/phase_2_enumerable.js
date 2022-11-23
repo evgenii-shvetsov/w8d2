@@ -27,3 +27,5 @@ Array.prototype.myReduce = function(callback) {
 }
 
 console.log([1, 2, 3].myReduce(el => el * 2))
+
+
